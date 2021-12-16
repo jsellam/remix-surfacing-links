@@ -1,0 +1,41 @@
+{
+  "name": "remix-surfacing-links",
+  "version": "1.0.0",
+  "description": "Write less code for surfacing styles in your remix.run project",
+  "main": "dist/surfaceLinks.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "./types/surfaceLinks.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsellam/remix-surfacing-links.git"
+  },
+  "keywords": [
+    "remix",
+    "styles",
+    "css",
+    "surfacing"
+  ],
+  "author": "Jérémie Sellam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsellam/remix-surfacing-links/issues"
+  },
+  "homepage": "https://github.com/jsellam/remix-surfacing-links#readme",
+  "peerDependencies": {
+    "@remix-run/server-runtime": ">=1.0.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^4.5.4"
+  }
+}
